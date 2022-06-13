@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+      box-sizing: border-box;
+      margin: 0;
+  }
+  .container{
+      text-align: center;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      background-color: skyblue;
+     top: 25%;
+     left: 25%;
+     width: 50%;
+     margin: 0 auto;
+  }
+  
+  .completed{
+      text-decoration: line-through;
+  }
+  .check:checked{
+      background-color: rgb(240, 130, 66);
+  }
+  .app form input{
+      border: none;
+      background-color: whitesmoke;
+      padding: 10px 50px;
+      font-size: 20px;
+  }
+  .app form button{
+      border: none;
+      color: white;
+      background-color: rgb(152, 241, 129);
+      padding: 10px 15px;
+      font-size: 20px;
+      color: black;
+      font-weight: 700;
+  }
+  .app ul{
+      list-style: none;
+  }
+  .app li{
+      padding: 10px;
+  }
+  .task{
+      font-size: 20px;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+  }
+  .task:focus{
+      outline: none;
+  }
+  .delete{
+      background-color: rgb(245, 86, 86);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 20px;
+      font-size: 20px;
+      margin-left: 20px;
+  }
